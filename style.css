@@ -49,6 +49,10 @@ section .card .imgText .imgBx{
     margin-bottom: 15px;
     border: 5px solid rgba(0,0,0,0.25);
 }
+section .card .imgText .imgBx:hover{
+    -webkit-box-shadow: 0px 0px 0px 12px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 0px 12px rgba(0, 0, 0, 0.1);
+}
 section .card .imgText .imgBx img{
     position: absolute;
     top: 0;
